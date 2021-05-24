@@ -1,6 +1,8 @@
 .navbar
 {
-    flex-direction: unset;
+    width: 98%;
+    max-width: 1440px;
+    margin: auto;
 }
 .icon
 {
@@ -33,4 +35,46 @@ justify-content: space-between;
  flex-direction: column;
  justify-content: space-between;
 }
-
+.logo
+{
+    padding: 1px;
+    margin: auto;
+    border: unset;
+}
+.filtres ul
+{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.filtres ul li
+{
+    display: inline;
+    margin-left: 25px;
+    font-weight: 700;
+    border: solid 2px #e2e2e2;
+    padding: 0 20px 0 0;
+    margin-top: 10px;
+    border-radius: 200px;
+    font-weight: 800;
+    font-family: "Font Awesome 5 Free";
+}
+.filtres ul li :hover
+{
+    cursor: pointer;
+    background: aquamarine;
+    transition-duration: 0.25;
+}
+body
+{
+    font-family:  raleway ,sans-serif;
+    margin: 0px;
+}
+header
+{
+    width: 98%;
+    max-width: 1440px;
+    margin: auto;
+}
+ 
