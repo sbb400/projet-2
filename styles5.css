@@ -1,0 +1,36 @@
+.navbar
+{
+    
+}
+.icon
+{
+    margin: 1px 1px 1px 1px;
+    padding: 20px ;
+    
+}
+.footer-block
+{
+    width: 100%;
+    max-width: 1440px;
+    background-color: grey;
+    background: #F2F2F2;
+    flex-direction: column; justify-content: space-between;
+    
+}
+.footer-title
+{
+    justify-content: initial;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer-link
+{
+flex-direction: column;
+justify-content: space-between;
+}
+.footer
+{
+ flex-direction: column;
+ justify-content: space-between;
+}
+
