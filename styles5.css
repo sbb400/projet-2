@@ -1,8 +1,27 @@
-.navbar
+.navbar 
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 98%;
     max-width: 1440px;
     margin: auto;
+}
+.navbar-local
+{
+    justify-content: space-between;
+    flex-direction: column;
+}
+.navbar-service
+{
+justify-content: space-between;
+flex-direction: column;
+}
+.navbar-login
+{
+    justify-content: space-between;
+    flex-direction: column;
 }
 .icon
 {
@@ -77,4 +96,5 @@ header
     max-width: 1440px;
     margin: auto;
 }
+
  
