@@ -1,6 +1,6 @@
 .navbar
 {
-    
+    flex-direction: unset;
 }
 .icon
 {
