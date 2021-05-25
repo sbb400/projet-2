@@ -132,10 +132,25 @@ header
     padding: 17px;
     cursor: pointer;
 }
-.button-loupe
+.icon-localisation
 {
-    content:"\f002";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 14px 0 0 14px;
 }
+.research-box
+{
+    display: -webkit-inline-flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
 
 
 
