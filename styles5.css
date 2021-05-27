@@ -1,12 +1,13 @@
 .navbar 
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
     width: 98%;
     max-width: 1440px;
     margin: auto;
+    
 }
 .navbar-local
 {
@@ -43,16 +44,19 @@ flex-direction: column;
     justify-content: initial;
     font-size: 18px;
     margin-bottom: 15px;
+    
 }
 .footer-link
 {
 flex-direction: column;
 justify-content: space-between;
+
 }
 .footer
 {
  flex-direction: column;
  justify-content: space-between;
+ 
 }
 .logo
 {
@@ -75,7 +79,7 @@ justify-content: space-between;
     border: solid 2px #e2e2e2;
     padding: 0 20px 0 0;
     margin-top: 10px;
-    border-radius: 200px;
+    border-radius: 400px;
     font-weight: 800;
     font-family: "Font Awesome 5 Free";
 }
@@ -83,9 +87,10 @@ justify-content: space-between;
 {
     cursor: pointer;
     background: aquamarine;
-    transition-duration: 0.25;
-}
-body
+    transition-duration: 10px;
+    
+
+.body
 {
     font-family:  raleway ,sans-serif;
     margin: 0px;
@@ -97,8 +102,8 @@ header
     margin: auto;
 }
 .button
-{   
-     appearance: auto;
+{       
+    appearance: auto;
     -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
@@ -120,6 +125,7 @@ header
     border-style: outset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
+   
 }
 .button-research
 {
@@ -151,8 +157,8 @@ header
 }
 .div
 {
-    display: block;
-    
+    display: inline;
+
 }
 .ul
 {
@@ -163,6 +169,21 @@ header
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+.populaires-img
+{
+    border-radius: 50px solid black;
+    margin: auto;
+    padding: auto;
+}
+.case-text
+{
+    align-items: center;
+    border-radius: 25px;
+    border: solid black ;
+}
+
+
+
 
 
 
