@@ -89,6 +89,14 @@ justify-content: space-between;
     background: aquamarine;
     transition-duration: 10px;
     
+.filtres-button
+{
+    background-color: #DEEBFF;
+    color: #0065fc;
+    padding: 20px;
+    border-radius: 300px;
+    margin-right: 25px;
+}
 
 .body
 {
