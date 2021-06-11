@@ -4,12 +4,11 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 200em;
-    max-width: 100em;
+    width: 96em;
     margin: auto;
     
 }
-.navbar-local:hover
+.navbar-forme:hover
 {
     display: flex;
     justify-content: space-around;
@@ -17,7 +16,7 @@
     align-items: center;
     color: blue;
 }
-.navbar-service:hover
+.navbar-forme:hover
 {
     display: flex;
 justify-content: space-around;
@@ -46,7 +45,7 @@ align-items: center;
 .icon
 {
     margin: 1px 1px 1px 1px;
-    padding: 20px ;
+    padding: 10px ;
     
 }
 .footer-block
@@ -289,7 +288,11 @@ header
     margin-left: 20px;
     margin-bottom: 20px;
 }
-
+.populaires
+{
+    display: flex;
+    
+}
 .case-img
 {
     width: 99%;
@@ -406,6 +409,11 @@ header
 .cubeloisir
 {
     display: flex;
+    margin: 5px 5px 5px 5px;
+}
+.cubeloisir2
+{
+    flex-direction: column;
 }
 .cubefooter
 {
