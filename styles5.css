@@ -78,6 +78,7 @@ justify-content: space-between;
 }
 .logo
 {
+    display: flex;
     padding: 1px;
     margin: auto;
     border: unset;
@@ -109,6 +110,14 @@ justify-content: space-between;
 
 }
 
+
+  .icon-filter {
+    background-color: #DEEBFF;
+    color: #0065fc;
+    padding: 18px;
+    border-radius: 200px;
+    margin-right: 15px;
+}
 .filtres-button
 {
     background-color: #DEEBFF;
@@ -138,10 +147,12 @@ justify-content: space-between;
 
 .body
 {
-    font-family:  raleway ,sans-serif;
+    font-family: 'Raleway';
+    margin: 0;
     width: 98%;
     max-width: 1440px;
     margin: auto;
+    position: static;
 
 }
 header
@@ -257,21 +268,19 @@ header
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    width: 19em;
+    width: 16em;
     height: 16em;
     margin: 10px 10px 10px 10px;
     display: inline-table;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 27px;
-    padding: 0 0 0 0;
+   
     
     
 }
 .cubeherbergement
 {
     
-    width: 1011px;
-    height: 650px;
+    width: 899px;
+    height: 700px;
     background-color:#F2F2F2;
     padding: 1%;
     border-radius: 20px;
@@ -292,6 +301,12 @@ header
 {
     display: flex;
     
+    
+}
+.populaires2
+{
+    display: flex;
+  
 }
 .case-img
 {
@@ -341,16 +356,14 @@ header
     align-items: start;
     border-radius: 20px;
     border: 5px solid transparent;
-    box-shadow: 0px 0px 6px 0px #0000002e;
+    box-shadow: 0px 1px 1px 0px #0000002e;
     object-fit: cover;
     width: 10em;
     height: 20em;
     margin: 15px 15px 15px 15px;
     display: inline-table;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 27px;
-    padding: 0 0 0 0;
 }
+  
 .case-loisir2
 {
 
@@ -358,15 +371,12 @@ header
     align-content: center;
     border-radius: 20px;
     border: 5px solid transparent;
-    box-shadow: 0px 0px 6px 0px #0000002e;
+    box-shadow: 0px 1px 1px 0px #0000002e;
     object-fit: cover;
     width: 10em;
     height: 20em;
     margin: 15px 15px 15px 15px;
     display: inline-table;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 27px;
-    padding: 0 0 0 0;
 }
 .populaires-img
 {
@@ -401,7 +411,7 @@ header
 .losir-img3
 {
     width: 20em;
-    height: 30em;
+    height: 38em;
     display: flex;
     border-radius: 20px 20px 0px 0px;
 }
@@ -455,10 +465,9 @@ header
     align-items: baseline;
 }
 media screen and (max-width: 900px)
-body{
+body{ 
     width: 92%
 }
 @media screen and (max-width: 1200px)
-body {
-    width: 95%;
+body { width: 95%;
 }
