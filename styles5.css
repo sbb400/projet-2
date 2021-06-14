@@ -303,13 +303,25 @@ header
     
     
 }
-.populaires2
-{
+
+.section1{
     display: flex;
-  
+    flex-direction: column;
+    width: 100%;
+
 }
-.case-img
-{
+.herbergement-bloc{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.populaires-bloc{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.case-img{
     width: 99%;
     height: 160px;
     background-size: 100% 100%;
@@ -380,8 +392,8 @@ header
 }
 .populaires-img
 {
-    width: 30em;
-    height: 10em;
+    width: 80%;
+    height: 25%;
     background: white;
     list-style: none;
     display: flex;
