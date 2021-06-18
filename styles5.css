@@ -1,35 +1,73 @@
-.navbar 
+.navbar .navbar-link .underline-effect {
+    width: 100%;
+    height: 3px;
+    background: white;
+  }
+  
+  .navbar #navbar-link-accomodation > .underline-effect {
+    background: #0065fc;
+  }
+  
+  .navbar #navbar-link-activities:hover > .underline-effect {
+    background: #0065fc;
+  }
+  
+  #navbar-link-sign-up a {
+    color: #0065fc;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+  }
+  
+  .navbar a:visited {
+    color: #0065fc;
+  }
+  
+  .navbar img {
+    grid-area: logo;
+  }
+  
+  .navbar #navbar-link-accomodation {
+    grid-area: accomodation;
+  }
+  
+  #navbar-link-accomodation a {
+    color: #0065fc;
+  }
+  
+  .navbar #navbar-link-activities {
+    grid-area: activities;
+    color: black;
+  }
+  
+  .navbar #navbar-link-activities a {
+    color: black;
+  }
+  
+  .navbar #navbar-link-activities a:hover {
+    color: #0065fc;
+  }
+  
+  .navbar #navbar-link-sign-up {
+    grid-area: sign-up;
+    color: #0065fc;
+    font-weight: 600;
+  }
+  
+  .navbar .active-link {
+    color: #0065fc;
+  }
+.navbar
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 96em;
-    margin: auto;
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: space-between;
+align-items: center;    
     
-}
-.navbar-forme:hover
-{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    color: blue;
-}
-.navbar-forme:hover
-{
-    display: flex;
-justify-content: space-around;
-flex-direction: column;
-align-items: center;
-
-}
-.navbar-login
-{
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    color: blue;
 }
 .fas .fa .info
 {
@@ -105,20 +143,23 @@ justify-content: space-between;
 .filtres ul li :hover
 {
     cursor: pointer;
-    background: aquamarine;
+    background:white;
     transition-duration: 10px;
 
 }
+.filtres ul :hover
+{
+  background-color: #DEEBFF;
+}
 
-
-  .icon-filter {
+.icon-filter {
     background-color: #DEEBFF;
     color: #0065fc;
     padding: 18px;
     border-radius: 200px;
     margin-right: 15px;
 }
-.filtres-button
+.filtres-button 
 {
     background-color: #DEEBFF;
     color: #0065fc;
@@ -127,6 +168,11 @@ justify-content: space-between;
     margin-right: 25px;
     align-content: center;
     align-items: center;
+    
+}
+.title-h3
+{
+    font-size: 24px;
     
 }
 .fas
@@ -147,13 +193,8 @@ justify-content: space-between;
 
 .body
 {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     margin: 0;
-    width: 98%;
-    max-width: 1440px;
-    margin: auto;
-    position: static;
-
 }
 header
 {
@@ -234,6 +275,16 @@ header
     padding: 0px 0px 0px 0px ;
     
 }
+.icon-star
+{
+    display: flex;
+    flex-direction: row;
+}
+.colorgris
+{
+    color: #f2f2f2;
+    
+}
 
 .case-populaires
 {
@@ -260,70 +311,73 @@ header
 {
     background: white;
     list-style: none;
-    display: block;
+    display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: start;
-    border-radius: 38px;
+    border-radius: 20px;
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    width: 16em;
-    height: 16em;
-    margin: 10px 10px 10px 10px;
+    width: 30%;
+    margin: 5px 5px 5px 5px;
     display: inline-table;
    
     
     
 }
-.cubeherbergement
+.fontgris
 {
-    
-    width: 899px;
-    height: 700px;
-    background-color:#F2F2F2;
-    padding: 1%;
+    background-color: #F2F2F2;
     border-radius: 20px;
-    margin-right: 20px;
+    width: 60%
 }
-.cubepopulaires
-{
-    
-    height: 650px;
-    width: 520px;
-    background-color:#F2F2F2;
-    padding: 1%;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
+
+
 .populaires
 {
     display: flex;
-    
     
 }
 
 .section1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 
 }
 .herbergement-bloc{
     display: flex;
-    flex-direction: column;
-    width: 60%;
+    flex-direction:row;
+    width: 75%;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: 10px;
+
+    
+}
+.affichage
+{
+    
+    font-size: 18px;
+}
+aside
+{
+    width: 25%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin: 0px 0px 0px 10px;
 }
 .populaires-bloc{
     display: flex;
     flex-direction: column;
     width: 40%;
+    list-style: none;
 }
 
 .case-img{
-    width: 99%;
-    height: 160px;
+    width: 98%;
+    height: 154px;
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -331,8 +385,9 @@ header
 }
 .case-img2
 {
-    width: 101%;
-    height: 140px;
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
     display: flex;
     border-radius: 20px 20px 0px 0px;
 }
@@ -345,6 +400,9 @@ header
     align-content: center;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    word-spacing: 2px;
+    line-height: 0px;
 
 }
 .case-text2
@@ -356,6 +414,7 @@ header
     align-content: center;
     justify-content: center;
     align-items: center;
+    line-height: 0px;
 }
 .case-loisir
 {
@@ -370,7 +429,7 @@ header
     border: 5px solid transparent;
     box-shadow: 0px 1px 1px 0px #0000002e;
     object-fit: cover;
-    width: 10em;
+    width: 25%;
     height: 20em;
     margin: 15px 15px 15px 15px;
     display: inline-table;
@@ -385,15 +444,19 @@ header
     border: 5px solid transparent;
     box-shadow: 0px 1px 1px 0px #0000002e;
     object-fit: cover;
-    width: 10em;
-    height: 20em;
+    width: 25%;
+    height: 13em;
     margin: 15px 15px 15px 15px;
     display: inline-table;
 }
+.prix
+{
+    font-weight: bold;
+}
 .populaires-img
 {
-    width: 80%;
-    height: 25%;
+    width: 90%;
+    height: 150px;
     background: white;
     list-style: none;
     display: flex;
@@ -412,8 +475,8 @@ header
 }
 .losir-img
 {
-    width: 27em;
-    height: 15em;
+    width: 20em;
+    height: 10em;
     background-size: 100% 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -423,7 +486,7 @@ header
 .losir-img3
 {
     width: 20em;
-    height: 38em;
+    height: 28em;
     display: flex;
     border-radius: 20px 20px 0px 0px;
 }
@@ -432,29 +495,31 @@ header
 {
     display: flex;
     margin: 5px 5px 5px 5px;
+    width: 25%;
 }
 .cubeloisir2
 {
     flex-direction: column;
+    
 }
 .cubefooter
 {
     display: flex;
 }
-.case-icon
-{
-    
-    background-color:white;
-    display: flex;
-    border:black 1px solid;
-    border-radius: 300px;
-    width: 42px;
-    height: 42px;
-}
+
 .info .fas
 {
-    background-color: white;
+background-color: white;
+color: #0065fc;
+font-size: 16px;
+padding: 7px 11px 7px 11px;
+border: solid 1px #D9D9D9;
+border-radius: 2000px;
+margin-right: 20px;
 }
+.info p {
+    display: inline;
+  }
 .filtres
 {
     display: flex;
@@ -467,13 +532,18 @@ header
     display: flex;
     margin: 0px;
     background-color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 .graf
 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: baseline;
 }
 media screen and (max-width: 900px)
