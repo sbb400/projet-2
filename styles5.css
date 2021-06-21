@@ -198,6 +198,10 @@ line-height: 2px;
     font-family: 'Raleway' sans-serif;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: initial;
+  }
 header
 {
     width: 98%;
