@@ -100,12 +100,14 @@ align-items: center;
     justify-content: initial;
     font-size: 18px;
     margin-bottom: 15px;
+    line-height: 40px;
     
 }
 .footer-link
 {
 flex-direction: column;
 justify-content: space-between;
+line-height: 2px;
 
 }
 .footer
@@ -245,7 +247,7 @@ header
     justify-content: center;
     align-items: center;
     width: 55px;
-    height: 28px;
+    height: 20px;
     background-color: #F2F2F2;
     border-radius: 14px 0px 0px 14px;
     color: black;
@@ -257,7 +259,15 @@ header
     flex-direction: row;
     margin-top: 15px;
     margin-bottom: 35px;
+
 }
+.research-bar::placeholder {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+  }
 
 .fa-chart-line
 {
@@ -349,7 +359,7 @@ header
 .herbergement-bloc{
     display: flex;
     flex-direction:row;
-    width: 75%;
+    width: 60%;
     list-style: none;
     flex-wrap: wrap;
     margin-left: 10px;
@@ -363,7 +373,7 @@ header
 }
 aside
 {
-    width: 25%;
+    width: 40%;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin: 0px 0px 0px 10px;
@@ -376,7 +386,7 @@ aside
 }
 
 .case-img{
-    width: 98%;
+    width: 60%;
     height: 154px;
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
@@ -386,14 +396,15 @@ aside
 .case-img2
 {
     width: 100%;
-    height: 100px;
+    height: 140px;
     background-size: 100% 100%;
     display: flex;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 .case-text
 {
-    object-fit: cover;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -401,8 +412,9 @@ aside
     justify-content: center;
     align-items: center;
     width: 500px;
-    word-spacing: 2px;
-    line-height: 0px;
+    word-spacing: 1px;
+
+    
 
 }
 .case-text2
@@ -455,7 +467,7 @@ aside
 }
 .populaires-img
 {
-    width: 90%;
+    width: 70%;
     height: 150px;
     background: white;
     list-style: none;
@@ -473,6 +485,22 @@ aside
     object-fit: cover;
     
 }
+.hotel-nom2
+{
+    display: block;
+    line-height: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-prix2
+{
+    display: block;
+    line-height: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .losir-img
 {
     width: 20em;
@@ -483,6 +511,7 @@ aside
     
 
 }
+
 .losir-img3
 {
     width: 20em;
@@ -546,10 +575,22 @@ margin-right: 20px;
     justify-content: space-between;
     align-items: baseline;
 }
-media screen and (max-width: 900px)
-body{ 
+@media screen and (max-width: 900px){
+.body
     width: 92%
+    flex-direction: column;
 }
-@media screen and (max-width: 1200px)
-body { width: 95%;
+@media screen and ( max-width:500px){
+.section1
+ width: 100%
 }
+@media screen (max-width: 500px;){
+.footer
+width: 30%;
+}
+@media screen (max-width:300px){
+.case-loisir.case-loisir2
+width: 30%;
+}
+
+

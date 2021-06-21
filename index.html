@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2? family= Raleway & display=swap" rel="stylesheet ">
+  <link href="https://fonts.googleapis.com/css2? family= Raleway:wght@300 & display=swap" rel="feuille de style">
+
 
 
 </header>
@@ -26,23 +27,23 @@
 
       <div class="icon"><img src="src\Reservia.svg" alt="logo" id="logo" /></div>
 
-      <nav class="navbar">
-        <nav class="navbar">
-          <a href="index.html"></a>
-          <div class="navbar-link active-link" id="navbar-link-accomodation">
-            <div class="underline-effect"></div>
-            <a href="#blocs">Hébergement</a>
-          </div>
-          <div class="navbar-link" id="navbar-link-activities">
-            <div class="underline-effect"></div>
-            <a href="#title-activities">Activités</a>
-          </div>
-          <div class="navbar-link login" id="navbar-link-sign-up">
-            <a href="#">S'inscrire</a>
-          </div>
-        </nav>
 
+      <nav class="navbar">
+        <a href="index.html"></a>
+        <div class="navbar-link active-link" id="navbar-link-accomodation">
+          <div class="underline-effect"></div>
+          <a href="#blocs">Hébergement</a>
+        </div>
+        <div class="navbar-link" id="navbar-link-activities">
+          <div class="underline-effect"></div>
+          <a href="#title-activities">Activités</a>
+        </div>
+        <div class="navbar-link login" id="navbar-link-sign-up">
+          <a href="#">S'inscrire</a>
+        </div>
       </nav>
+
+    </nav>
   </header>
   <h1> Trouver votre herbergement pour des vacances de reve </h1>
   <p>en plein centre ville ou en pleine nature </p>
@@ -51,7 +52,7 @@
   <div class="research-box">
 
     <div class="icon-localisation"><i class="fas fa-map-marker-alt"></i></div>
-    <input type="text" placeholder="Marseille, France" class="research-bar">
+    <input type="text" placeholder="Marseille, France" class="research-bar" style="width: 250px;">
     <button class="button-research" id="button-research">Rechercher</button>
 
 
@@ -86,7 +87,8 @@
       <div class="cases">
 
 
-        <div class="case-hotel" id="ch5">
+
+        <div class="case-hotel" id="#blocs">
 
 
           <p><img class="case-img2" src="src\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg"
@@ -97,9 +99,9 @@
           <div class="case-text2">
 
             <p>
-            <h3 class="hotel-name">auberge de la mer</h3>
+            <h3 class="hotel-nom">auberge de la mer</h3>
             </p>
-            <p class="hotel-price">nuit a partir de <span class="prix">46€</span></p>
+            <p class="hotel-prix">nuit a partir de <span class="prix">46€</span></p>
 
 
 
@@ -123,9 +125,9 @@
 
           <div class="case-text2">
             <p>
-            <h3 class="hotel-name"> hotel chez amina</h3>
+            <h3 class="hotel-nom"> hotel chez amina</h3>
             </p>
-            <p class="hotel-price">nuit a partir de <span class="prix"> 96€</span></p>
+            <p class="hotel-prix">nuit a partir de <span class="prix"> 96€</span></p>
           </div>
 
 
@@ -147,9 +149,9 @@
 
           <div class="case-text2">
             <p>
-            <h3 class="hotel-name">hotel du port</h3>
+            <h3 class="hotel-nom">hotel du port</h3>
             </p>
-            <p class="hotel-price">nuit a partir de <span class="prix">52€</span></p>
+            <p class="hotel-prix">nuit a partir de <span class="prix">52€</span></p>
           </div>
 
 
@@ -175,9 +177,9 @@
           <div class="case-text2">
 
             <p>
-            <h3 class="hotel-name">auberge de la cannebiere</h3>
+            <h3 class="hotel-nom">auberge de la cannebiere</h3>
             </p>
-            <p class="hotel-price">nuit a partir de <span class="prix"> 25€</span></p>
+            <p class="hotel-prix">nuit a partir de <span class="prix"> 25€</span></p>
           </div>
 
 
@@ -201,9 +203,9 @@
 
           <div class="case-text2">
             <p>
-            <h3 class="hotel-name">auberge le panier</h3>
+            <h3 class="hotel-nom">auberge le panier</h3>
             </p>
-            <p class="hotel-price">nuit a partir de <span class="prix">23€</span></p>
+            <p class="hotel-prix">nuit a partir de <span class="prix">23€</span></p>
           </div>
 
 
@@ -229,9 +231,9 @@
           <div class="case-text2">
 
             <p>
-            <h3 class="hotel-name">hotel la mouettes</h3>
+            <h3 class="hotel-nom">hotel la mouettes</h3>
             </p>
-            <p class="hotel-price">nuit a partir de <span class="prix"> 76€</span></p>
+            <p class="hotel-prix">nuit a partir de <span class="prix"> 76€</span></p>
 
 
 
@@ -269,10 +271,10 @@
 
         <div class="case-text">
           <p>
-          <h3> hotel le soleil du matin</h3>
-          </p>
+          <h3 class="hotel-nom2">hotel le soleil du matin</h3>
 
-          <p>nuit a partir de <span class="prix"> 128 €</span></p>
+
+          <p class="hotel-prix2">nuit a partir de <span class="prix"> 128 €</span></p>
 
 
           <div class="icon-star">
@@ -290,17 +292,20 @@
 
 
       <div class="populaires-img" id="ch2">
+        <p><img class="case-img" src="src\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg"
+            alt="au coeur de l'eau chambre d'hotel" /></p>
 
-        <p><img class="case-img" src="src\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-            alt="hotel tout bleus et blanc" /></p>
+
+
 
 
 
         <div class="case-text">
           <p>
-          <h3> hotel tout bleus et blanc </h3>
+          <h3> au coeur de l'eau chambre d'hotel</h3>
 
-          nuit a partir de <span class="prix">68 €</span></p>
+          <p class="hotel-prix2"> nuit a partie de <span class="prix"> 71 €</span>
+          </p>
 
 
           <div class="icon-star">
@@ -314,18 +319,19 @@
         </div>
       </div>
 
+
       <div class="populaires-img" id="ch4">
-        <p><img class="case-img" src="src\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg"
-            alt="au coeur de l'eau chambre d'hotel" /></p>
+        <p><img class="case-img" src="src\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+            alt="hotel tout bleus et blanc" /></p>
 
 
 
         <div class="case-text">
           <p>
-          <h3> au coeur de l'eau chambre d'hotel</h3>
-
-          nuit a partie de <span class="prix"> 71 €</span>
+          <h3 class="hotel-nom2"> hotel tout bleus et blanc </h3>
           </p>
+
+          <p class="hotel-prix2"> nuit a partir de <span class="prix">68 €</span></p>
 
 
           <div class="icon-star">
