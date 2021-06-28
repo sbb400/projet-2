@@ -4,12 +4,14 @@
     background: white;
   }
   
-  .navbar #navbar-link-accomodation > .underline-effect {
+  .navbar #navbar-link-accomodation:hover > .underline-effect {
     background: #0065fc;
+    line-height: 50px
   }
   
   .navbar #navbar-link-activities:hover > .underline-effect {
     background: #0065fc;
+    line-height: 50px
   }
   
   #navbar-link-sign-up a {
@@ -26,12 +28,10 @@
     color: #0065fc;
   }
   
-  .navbar img {
-    grid-area: logo;
-  }
   
   .navbar #navbar-link-accomodation {
     grid-area: accomodation;
+    line-height: 54px;
   }
   
   #navbar-link-accomodation a {
@@ -41,6 +41,7 @@
   .navbar #navbar-link-activities {
     grid-area: activities;
     color: black;
+    line-height: 54px;
   }
   
   .navbar #navbar-link-activities a {
@@ -51,13 +52,23 @@
     color: #0065fc;
   }
   
-  .navbar #navbar-link-sign-up {
+  .navbar #navbar-link-sign-up{
     grid-area: sign-up;
     color: #0065fc;
     font-weight: 600;
   }
+  .navbar .navbar-link-login:hover {
+    width: 100%;
+    height: 3px;
+    background:blue;
+  }
+  .navbar .navbar-link-login:hover.underline-effect{
+    background-color:#0065fc;
+    margin-bottom: 10px;
+  }
+
   
-  .navbar .active-link {
+.navbar .active-link {
     color: #0065fc;
   }
 .navbar
@@ -66,7 +77,7 @@ display: flex;
 flex-wrap: nowrap;
 align-content: center;
 justify-content: space-between;
-align-items: center;    
+align-items: center; 
     
 }
 .fas .fa .info
@@ -82,17 +93,27 @@ align-items: center;
 }
 .icon
 {
-    margin: 1px 1px 1px 1px;
-    padding: 10px ;
+    margin: 1px 1px 1px -32px;
+    padding: 2px ;
     
 }
 .footer-block
 {
     width: 100%;
     max-width: 1440px;
-    background-color: grey;
     background: #F2F2F2;
     flex-direction: row; justify-content: space-between;
+    line-height: 44px;
+    
+}
+.footer-block1
+{
+    width: 100%;
+    max-width: 1440px;
+    background: #F2F2F2;
+    flex-direction: row; justify-content: space-between;
+    line-height: 44px;
+    margin-left: 10px;
     
 }
 .footer-title
@@ -101,14 +122,16 @@ align-items: center;
     font-size: 18px;
     margin-bottom: 15px;
     line-height: 40px;
+    margin-left: 30px;
     
 }
+
 .footer-link
 {
 flex-direction: column;
 justify-content: space-between;
 line-height: 2px;
-
+margin-left: 30px;
 }
 .footer
 {
@@ -196,7 +219,7 @@ line-height: 2px;
 .body
 {
     font-family: 'Raleway' sans-serif;
-    margin: 0;
+    
 }
 a {
     text-decoration: none;
@@ -250,11 +273,12 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
+    width: 35px;
     height: 20px;
     background-color: #F2F2F2;
     border-radius: 14px 0px 0px 14px;
     color: black;
+    font-size: 20px;
 
 }
 .research-box
@@ -293,6 +317,19 @@ header
 {
     display: flex;
     flex-direction: row;
+    
+}
+.icon-star2
+{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 1px 1px 10px
+}
+.icon-star3
+{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 1px 1px 10px
 }
 .colorgris
 {
@@ -333,18 +370,37 @@ header
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    width: 30%;
+    width: 27%;
     margin: 5px 5px 5px 5px;
     display: inline-table;
    
     
     
 }
+.case-hotel2
+{
+    background: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    box-shadow: 0px 0px 6px 0px #0000002e;
+    object-fit: cover;
+    width: 27%;
+    margin-left: 50px;
+    margin-right: 10px;
+
+    display: inline-table;
+}
 .fontgris
 {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 60%
+    width: 60%;
+    display:flex;
 }
 
 
@@ -366,21 +422,27 @@ header
     width: 60%;
     list-style: none;
     flex-wrap: wrap;
-    margin-left: 10px;
+    margin-left: -5px;
 
     
+}
+.herbergement
+{
+    margin-top: 30px;
+    margin-left: 30px;
 }
 .affichage
 {
     
     font-size: 18px;
+    margin-left: 30px;
 }
 aside
 {
-    width: 40%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 40px;
 }
 .populaires-bloc{
     display: flex;
@@ -390,7 +452,7 @@ aside
 }
 
 .case-img{
-    width: 60%;
+    width: 40%;
     height: 154px;
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
@@ -406,19 +468,25 @@ aside
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+.case-img3{
+    width: 94%;
+    height: 154px;
+    background-size: 100% 100%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    
+}
+
 .case-text
 {
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: block;
     align-content: center;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    word-spacing: 1px;
-
-    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+    width: 700px;
 
 }
 .case-text2
@@ -430,7 +498,18 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
-    line-height: 0px;
+    line-height: 5px;
+    margin-left: 15px;
+}
+.case-text3
+{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
 }
 .case-loisir
 {
@@ -447,7 +526,7 @@ aside
     object-fit: cover;
     width: 25%;
     height: 20em;
-    margin: 15px 15px 15px 15px;
+    margin: -20px 15px 15px 15px;
     display: inline-table;
 }
   
@@ -462,8 +541,14 @@ aside
     object-fit: cover;
     width: 25%;
     height: 13em;
-    margin: 15px 15px 15px 15px;
+    margin: -20px 15px 50px 15px;
     display: inline-table;
+}
+.activites
+{
+   
+    margin-left: 26px;
+    margin-top: 30pt;
 }
 .prix
 {
@@ -471,7 +556,7 @@ aside
 }
 .populaires-img
 {
-    width: 70%;
+    width: 83%;
     height: 150px;
     background: white;
     list-style: none;
@@ -485,17 +570,32 @@ aside
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    margin: 15px 15px 15px 15px;
+    margin: 15px 15px 30px 35px;
     object-fit: cover;
     
+}
+.hotel-nom1
+{
+    line-height: 16px;
+    font-size: 18px;
 }
 .hotel-nom2
 {
     display: block;
-    line-height: 0px;
+    line-height: 15px;
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin: 20px 1px 1px 10px
+}
+.hotel-nom3
+{
+    display: block;
+    line-height: 15px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 1px 1px 10px
 }
 .hotel-prix2
 {
@@ -504,6 +604,16 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin: 20px 1px 1px 10px
+}
+.hotel-prix3
+{
+    display: block;
+    line-height: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 1px 1px 10px
 }
 .losir-img
 {
@@ -548,10 +658,12 @@ font-size: 16px;
 padding: 7px 11px 7px 11px;
 border: solid 1px #D9D9D9;
 border-radius: 2000px;
-margin-right: 20px;
+margin-right: 12px;
+margin-left: -7px;
 }
 .info p {
     display: inline;
+    line-height: 50px
   }
 .filtres
 {
@@ -578,6 +690,8 @@ margin-right: 20px;
     align-content: center;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 20px;
+    margin-left: 32px;
 }
 @media screen and (max-width: 900px){
 .body
@@ -587,14 +701,23 @@ margin-right: 20px;
 @media screen and ( max-width:500px){
 .section1
  width: 100%
+ flex-direction: column
 }
 @media screen (max-width: 500px;){
 .footer
 width: 30%;
+flex-direction: column
 }
 @media screen (max-width:300px){
 .case-loisir.case-loisir2
 width: 30%;
+flex-direction: column
+}
+@media screen (max-width: 1400px;){
+.body
+
+flex-direction: column
+  
 }
 
 
