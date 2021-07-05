@@ -20,8 +20,7 @@
 
 <body>
   <style>
-    body
-    {
+    body {
       font-family: raleway;
       margin-left: 20px;
     }
@@ -45,9 +44,9 @@
           <div class="underline-effect"></div>
           <a href="#activites">Activités</a>
         </div>
-       <div class="navbar-link" id="navbar-link-login">
-         <div class="underline-effect"></div>
-         <a href="#s'inscrire">s'inscrire</a>
+        <div class="navbar-link" id="navbar-link-login">
+          <div class="underline-effect"></div>
+          <a href="#s'inscrire">s'inscrire</a>
         </div>
       </nav>
 
@@ -61,8 +60,9 @@
 
     <div class="icon-localisation"><i class="fas fa-map-marker-alt"></i></div>
     <input type="text" placeholder="Marseille, France" class="research-bar"
-      style="width: 250px;border: 1px solid #e2e2e2;font-family: raleway;">
+    style="width: 250px;border: 1px solid #e2e2e2;font-family: raleway;">
     <button class="button-research" id="button-research">Rechercher</button>
+    <button class="button-research searchFormSubmitinputIcon fas fa-search" id="icon-glass"></button>
 
 
   </div>
@@ -72,12 +72,14 @@
     <h3 class="title-h3">Filtres</h3>
 
     <ul class="filters-ul">
-      <li class="filters-button" style="font-family: raleway;"><i
-          class="fas fa-money-bill-wave icon-filter"></i>Économique</li>
-      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-child icon-filter"></i>Familial</li>
-      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-heart icon-filter"></i>Romantique</li>
-      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-dog icon-filter"></i>Animaux autorisés
-      </li>
+      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-money-bill-wave icon-filter"></i><span
+          id="nom">Économique</span></li>
+      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-child icon-filter"></i><span
+          id="nom">familial</span></li>
+      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-heart icon-filter"></i><span
+          id="nom">Romantique</span></li>
+      <li class="filters-button" style="font-family: raleway;"><i class="fas fa-dog icon-filter"></i><span
+          id="nom">animaux autorises</span> </li>
     </ul>
   </div>
 
@@ -97,9 +99,7 @@
       <h2 class="herbergement"> Herbergement a marseille</h2>
       <div class="cases">
 
-
-
-        <div class="case-hotel2">
+       <div class="case-hotel2">
 
           <a href="#">
             <img class="case-img2" src="src\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg"
@@ -118,7 +118,9 @@
 
 
             <div class="icon-star">
-              <div class="icon-star"><i class="fas fa-star"></i></div>
+              <div class="star2">
+                <div class="icon-star"><i class="fas fa-star"></i></div>
+              </div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star colorgris"></i></div>
@@ -145,7 +147,9 @@
 
 
             <div class="icon-star">
-              <div class="icon-star"><i class="fas fa-star"></i></div>
+              <div class="star">
+                <div class="icon-star"><i class="fas fa-star"></i></div>
+              </div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
@@ -171,7 +175,9 @@
 
 
             <div class="icon-star">
-              <div class="icon-star"><i class="fas fa-star"></i></div>
+              <div class="star">
+                <div class="icon-star"><i class="fas fa-star"></i></div>
+              </div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
@@ -199,7 +205,9 @@
 
 
             <div class="icon-star">
-              <div class="icon-star"><i class="fas fa-star"></i></div>
+              <div class="star">
+                <div class="icon-star"><i class="fas fa-star"></i></div>
+              </div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
@@ -227,7 +235,9 @@
 
 
             <div class="icon-star">
-              <div class="icon-star"><i class="fas fa-star"></i></div>
+              <div class="star">
+                <div class="icon-star"><i class="fas fa-star"></i></div>
+              </div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
               <div class="icon-star"><i class="fas fa-star"></i></div>
@@ -363,11 +373,12 @@
               <div class="icon-star"><i class="fas fa-star colorgris"></i>
               </div>
             </div>
-            </p>
+
 
           </div>
         </div>
       </a>
+
     </aside>
 
   </section>
