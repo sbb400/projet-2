@@ -97,7 +97,6 @@ align-items: center;
 {
     width: 100%;
     max-width: 1440px;
-    background: #F2F2F2;
     flex-direction: row; justify-content: space-between;
     line-height: 44px;
     
@@ -106,10 +105,10 @@ align-items: center;
 {
     width: 100%;
     max-width: 1440px;
-    background: #F2F2F2;
     flex-direction: row; justify-content: space-between;
     line-height: 44px;
     margin-left: 10px;
+    margin-top: 4px;
     
 }
 .footer-title
@@ -197,7 +196,7 @@ span#nom
 }
 .title-h3
 {
-    font-size: 24px;
+    font-size: 19px;
     
 }
 .fas
@@ -395,8 +394,7 @@ header
     width: 27%;
     margin-left: 50px;
     margin-right: 10px;
-
-    display: inline-table;
+   display: inline-table;
 }
 .fontgris
 {
@@ -432,13 +430,14 @@ header
 .herbergement
 {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 51px;
 }
 .affichage
 {
     
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-top: 35px
 }
 aside
 {
@@ -471,7 +470,8 @@ aside
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
-.case-img3{
+.case-img3
+{
     width: 94%;
     height: 154px;
     background-size: 100% 100%;
@@ -515,6 +515,24 @@ aside
     margin-bottom: 15px;
 }
 .case-loisir
+{
+
+    background: white;
+    list-style: none;
+    display: block;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    box-shadow: 0px 1px 1px 0px #0000002e;
+    object-fit: cover;
+    width: 25%;
+    height: 20em;
+    margin: -20px 15px 15px -13px;
+    display: inline-table;
+}
+.case-loisir3
 {
 
     background: white;
@@ -651,6 +669,7 @@ aside
 .cubefooter
 {
     display: flex;
+    background-color: #F2F2F2;
 }
 
 .info .fas
@@ -695,6 +714,7 @@ margin-left: -7px;
     align-items: baseline;
     margin-top: 20px;
     margin-left: 32px;
+    
 }
 .star
 {
@@ -704,6 +724,19 @@ margin-left: -7px;
 {
     margin-left: 1px;
 }
+.iphone8
+{
+    display: none;
+}
+.iphone
+{
+    display: none;
+}
+.retrait
+{
+    margin-left: -4px;
+}
+
 @media screen and (max-width: 900px){
 .body
 {
@@ -719,6 +752,7 @@ margin-left: -7px;
     position: absolute;
     right: 53px;
     width: 55px;
+    height: 55px;
     border-radius: 15px;
 
 }
@@ -734,14 +768,14 @@ display:none ;
 .case-hotel
 {
    flex-direction: column; 
-   width: 122%;
+   width: 98%;
 }
 }
 @media screen and (max-width: 700px){
 .icon-localisation 
 {
   width: 50px;    
-  height: 50px;
+  height: 55px;
   display: flex;
   flex-direction: row;
     flex-wrap: nowrap;
@@ -754,11 +788,11 @@ display:none ;
     .case-hotel2
     {
        flex-direction: column; 
-       width: 122%;
+       width: 98%;
        margin-left: 4px;
     }
     }
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
 .section1
  {
  flex-direction: column;
@@ -771,10 +805,34 @@ display:none ;
 @media screen and (max-width:500px) {
 .navbar
 {
-flex-direction: column;
-display: flex;
+display: none;
+
 } 
 }
+@media screen and (max-width:400px){
+.iphone8 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-right: -90px;
+    margin-left: -49px;
+    
+}
+    
+}
+@media screen and (max-width:400px){
+    .iphone
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: -129px
+    }
+        
+    }
 @media screen and (max-width: 600px){
 .navbar #navbar-link-accomodation 
 {
@@ -848,9 +906,9 @@ display: flex;
 @media screen and (max-width:480px) {
 .populaires-img
 {
-flex-direction: column;
-width: 200%;
-display: block;
+flex-direction: row;
+width: 85%;
+display: flex;
 
 }
     
@@ -879,6 +937,7 @@ aside
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 3px;
 }
     
 }
@@ -912,9 +971,19 @@ aside
 {
     width: 50px;
     height: 50px;
+    margin-left: 10px;
 }
     
 }
+@media screen and (max-width:600px){
+    .case-loisir3
+    {
+        width: 50px;
+        height: 50px;
+        
+    }
+        
+    }
 @media screen and ( max-width:600px) {
 footer
 {
@@ -985,94 +1054,92 @@ display: flex;
     align-items: center;
    }
    }
-   /*ipad*/ 
- @media screen and (max-width: 770px){
+   /*IPAD*/ 
+@media screen and (max-width: 1400px){
 .case-hotel
 {
-display: flex;
-width: 70%;
+
+width: 42%;
+margin: 5px 5px 5px 10px;
  }
  }
- @media screen and (max-width: 770px){
+ @media screen and (max-width: 1400px){
 .case-hotel2    
 {
-display: flex;
-width: 70%;
+
+width: 42%;
+margin: 5px 5px 5px 10px;
 }
 }
 
-@media screen and (max-width:900px)  {
-.cases
-{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: center;
-}
-    
-}
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1400px){
 .herbergement-bloc  
     {
     display: flex;
-    width: 450px;
+    width: 60%;
     flex-wrap: wrap;
     }
     }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 1024px){
  .populaires-img    
 {
 display: flex;
- width: 531px;
+ width: 320px;
  flex-direction: row;
 flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 align-items: center;
-margin-left: -25px;
+margin-left: 16px;
     }
     }       
- @media screen and (max-width: 770px){
+ @media screen and (max-width:1366px){
 .cubeloisir
 {
 display: flex;
-width: 50%;
+width: 100%;
 flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:1366px) {
 .cubeloisir2
 {
 display: flex;
 flex-direction: row;
-width: 50%;
+width: 60%;
 flex-wrap: wrap;
 }
     
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:1366px){
 .losir-img3
     {
-       width: 325px; 
-       height: 200px;
+       width: 230px; 
+       height: 415px;
     }
         
     }
- @media screen and (max-width:770px){
+ @media screen and (max-width:1024px){
 .case-loisir
  {
-     height: 50%;       
+     height: 50%;    
+     margin-left: -5px;
  }
             
+}
+@media screen and  (max-width:1366px){
+.losir-img
+{
+    width:230px;
+}
+    
 }
 @media screen and (max-width:1024px){
 aside
 {
     background-color: #F2F2F2;
-    width: 100%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -1081,22 +1148,21 @@ aside
     align-items: center;
 }
 }
-@media screen and(max-width:770px) {
+@media screen and (max-width:1024px) {
 .fontgris
 {
  background-color: #f2f2f2;
- width: 124%;
+ width: 60%;
+ display: flex;
+ 
 }
 } 
-@media screen and (max-width:770px) {
+@media screen and (max-width:1024px) {
 .section1
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: nowrap;
     width: 100%;
 }
     
