@@ -571,32 +571,7 @@ aside
     margin-left: 1px;
     margin-top: 30pt;
 }
-#loisirs
-{
- display: flex;
- flex-direction: column;
- width: 100%;
- margin-top: 3%; 
- padding-bottom: 2rem;
- gap: 1rem;
-}
 
-.loisirs2
-{
-display: flex;
-justify-content: space-between;
-gap:1em;
-
-}
-#vieuxport
-{
-    display: flex;
-    flex-direction: column;
-    width: 23%;
-    box-shadow: 0px 0px 10px lightgray;
-    border-radius: 10px;
-    height: 300px;
-}
 .prix
 {
     font-weight: bold;
@@ -673,6 +648,32 @@ gap:1em;
 
 }
 
+#loisirs
+{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ margin-top: 3%; 
+ padding-bottom: 2rem;
+ gap: 1rem;
+}
+
+.loisirs2
+{
+display: flex;
+justify-content: space-between;
+gap:1em;
+
+}
+#vieuxport
+{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 10px;
+    height: 300px;
+}
 .losir-image
 {
     width: 100%;
@@ -723,6 +724,13 @@ gap:1em;
 #longchamp
 {
     height: 110px;
+}
+.bloc-act
+{
+    display: flex;
+    justify-content: space-between;
+    gap:1em;
+    
 }
 .cubeloisir2
 {
