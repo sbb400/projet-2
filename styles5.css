@@ -529,7 +529,7 @@ aside
     object-fit: cover;
     width: 25%;
     height: 20em;
-    margin: -20px 15px 15px -13px;
+    margin: -20px 10px 10px -13px;
     display: inline-table;
 }
 .case-loisir3
@@ -547,7 +547,7 @@ aside
     object-fit: cover;
     width: 25%;
     height: 20em;
-    margin: -20px 15px 15px 15px;
+    margin: -20px 10px 15px 10px;
     display: inline-table;
 }
   
@@ -562,7 +562,7 @@ aside
     object-fit: cover;
     width: 25%;
     height: 13em;
-    margin: -20px 15px 50px 15px;
+    margin: -20px 10px 50px 10px;
     display: inline-table;
 }
 .activites
@@ -570,6 +570,31 @@ aside
    
     margin-left: 1px;
     margin-top: 30pt;
+}
+#loisirs
+{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ margin-top: 3%; 
+ padding-bottom: 2rem;
+ gap: 1rem;
+}
+.loisirs2
+{
+display: flex;
+justify-content: space-between;
+gap:1em;
+
+}
+#vieuxport
+{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 10px;
+    height: 300px;
 }
 .prix
 {
@@ -638,8 +663,8 @@ aside
 }
 .losir-img
 {
-    width: 20em;
-    height: 10em;
+    width: 240px;
+    height: 165px;
     background-size: 100% 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -647,19 +672,56 @@ aside
 
 }
 
-.losir-img3
+.losir-image
 {
-    width: 20em;
-    height: 28em;
-    display: flex;
+    width: 100%;
+    margin:0px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    
 }
-
-.cubeloisir
+.bloc-fort-iles
 {
     display: flex;
     margin: 5px 5px 5px 5px;
     width: 25%;
+}
+
+#fortpomegues
+{
+    height: 170px;
+}
+#ilesfrioul
+{
+    height: 110px;
+
+}
+#calanques
+{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+    height: 300px;
+    margin: 0px;
+}
+.bloc-ndg-longchamp
+{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    height: 300px;
+    gap:1em;
+}
+#ndp
+{
+    height: 170px;
+
+}
+#longchamp
+{
+    height: 110px;
 }
 .cubeloisir2
 {
