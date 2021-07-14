@@ -685,8 +685,11 @@ gap:1em;
 .bloc-fort-iles
 {
     display: flex;
-    margin: 5px 5px 5px 5px;
-    width: 25%;
+    flex-direction: column;
+    width: 23%;
+    height: 300px;
+    justify-content: normal;
+    gap: 1.5em;
 }
 
 #fortpomegues
