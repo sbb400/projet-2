@@ -671,7 +671,7 @@ gap:1em;
     flex-direction: column;
     width: 23%;
     box-shadow: 0px 0px 10px lightgray;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 300px;
 }
 
@@ -721,7 +721,7 @@ gap:1em;
     display: flex;
     width: 23%;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
     height: 300px;
     margin: 0px;
