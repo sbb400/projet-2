@@ -694,13 +694,15 @@ gap:1em;
     
 
 }
+
 span
 {
     padding-left: 1em;
     font-weight: bold;
     color:black;
-    height: 2em;
+    height: 3em;
 }
+
 .bloc-fort-iles
 {
     display: flex;
