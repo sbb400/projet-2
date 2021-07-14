@@ -706,10 +706,14 @@ gap:1em;
 #fortpomegues
 {
     height: 140px;
+    box-shadow: 0px 0px 10px lightgrey;
+    border-radius: 20px;
 }
 #ilesfrioul
 {
     height: 110px;
+    box-shadow: 0px 0px 10px lightgrey;
+    border-radius: 20px;
 
 }
 #calanques
@@ -733,13 +737,18 @@ gap:1em;
 #ndg
 {
     height: 140px;
+    box-shadow: 0px 0px 10px lightgrey;
+    border-radius: 20px;
 
 }
 
 #longchamp
 {
     height: 110px;
+box-shadow: 0px 0px 10px lightgrey;
+    border-radius: 20px;
 }
+
 .bloc-act
 {
     display: flex;
