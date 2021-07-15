@@ -89,7 +89,7 @@ align-items: center;
 }
 .icon
 {
-    margin: 1px 1px 1px -32px;
+    margin: 1px 1px 1px -38px;
     padding: 2px ;
     
 }
@@ -127,6 +127,13 @@ flex-direction: column;
 justify-content: space-between;
 line-height: 2px;
 margin-left: 30px;
+}
+.footer-link2
+{
+flex-direction: column;
+justify-content: space-between;
+line-height: 2px;
+margin-left: 1px;
 }
 .footer
 {
@@ -217,7 +224,7 @@ span#nom
 
 .body
 {
-    font-family: 'Raleway' sans-serif;
+    font-style: 'Raleway' sans-serif;
     
 }
 a {
@@ -292,9 +299,7 @@ header
     color: black;
     font-size: 16px;
     font-weight: bold;
-    
-    
-  }
+ }
 #icon-glass {
     display: none;
   }
@@ -375,9 +380,6 @@ header
     width: 27%;
     margin: 5px 5px 5px 5px;
     display: inline-table;
-   
-    
-    
 }
 .case-hotel2
 {
@@ -501,7 +503,7 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
-    line-height: 5px;
+    line-height: 15px;
     margin-left: 15px;
 }
 .case-text3
@@ -575,6 +577,7 @@ aside
 .prix
 {
     font-weight: bold;
+    margin-left: -18px;
 }
 .populaires-img
 {
@@ -844,7 +847,8 @@ margin-left: -7px;
     display: none;
 }
 
-@media screen and (max-width: 900px){
+      /*iphone*/
+@media screen and (min-width:371px) and (max-width:660){
 .body
 {
     width: 100%;
@@ -943,7 +947,7 @@ background-color: blue;
     line-height: 16px;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:500px) {
 .herbergement-bloc
 {
  flex-direction: column;
@@ -1017,8 +1021,7 @@ display:none ;
     {
         width: 390px;
         height: 180px;
-    }
-        
+    }  
     }
 @media screen and (max-width:600px){
 .case-loisir
@@ -1090,9 +1093,9 @@ margin-left:10px ;
     
 } 
 
-   /*IPAD*/ 
+/*IPAD*/
 
-@media screen and (max-width: 1026px){
+@media screen and (min-width:1024px) and (max-width:1366px){
 .case-hotel
 {
 
@@ -1124,6 +1127,7 @@ width: 100%;
 flex-direction: row;
 flex-wrap: nowrap;
 }
+}
 .cubeloisir2
 {
 display: flex;
@@ -1137,7 +1141,6 @@ width: 230px;
 height: 415px;
 }
 
-}
 .losir-img
 {
     width: 220px;
@@ -1173,7 +1176,11 @@ aside
  display: flex;
  
 }
-} 
+#logo
+{
+    margin-left: 19px;
+}
+
 @media screen and (max-width:1030px) {
 .section1
 {
