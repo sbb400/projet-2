@@ -504,7 +504,7 @@ aside
     justify-content: center;
     align-items: center;
     line-height: 15px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .case-text3
 {
@@ -654,7 +654,7 @@ aside
 #loisirs
 {
  display: flex;
- flex-direction: column;
+ flex-direction:row;
  width: 100%;
  margin-top: 3%; 
  padding-bottom: 2rem;
@@ -672,7 +672,7 @@ gap:1em;
 {
     display: flex;
     flex-direction: column;
-    width: 23%;
+    width: 48%;
     box-shadow: 0px 0px 10px lightgray;
     border-radius: 20px;
     height: 300px;
@@ -710,7 +710,7 @@ span
 {
     display: flex;
     flex-direction: column;
-    width: 23%;
+    width: 48%;
     height: 300px;
     justify-content: normal;
     gap: 1.5em;
@@ -731,7 +731,7 @@ span
 #calanques
 {
     display: flex;
-    width: 23%;
+    width: 48%;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
@@ -741,7 +741,7 @@ span
 .bloc-ndg-longchamp
 {
     display: flex;
-    width: 23%;
+    width: 48%;
     flex-direction: column;
     height: 300px;
     gap: 1.5em;
@@ -824,11 +824,11 @@ margin-left: -7px;
 }
 .star
 {
-    margin-left: 14px;
+    margin-left: 10px;
 }
 .star2
 {
-    margin-left: 1px;
+    margin-left: 0px;
 }
 .iphone8
 {
