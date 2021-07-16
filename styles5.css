@@ -345,6 +345,8 @@ header
 
 .case-populaires
 {   
+    margin: center;
+    border-radius: 100px solid black;
     flex-direction: row;justify-content: space-around;
     background-color: blue;
     background: white;
@@ -844,7 +846,7 @@ margin-left: -7px;
     display: none;
 }
 
-      /*iphone*/
+/*iphone*/
 @media screen and (min-width:371px) and (max-width:660px){
 .body
 {
@@ -885,7 +887,7 @@ margin-right: -90px;
         
 }     
 }
- @media screen and(max-width:402px){
+@media screen and (max-width:402px) {
 .iphone
 {
 display: flex;
@@ -895,7 +897,8 @@ margin-left: -129px
 }
 }
 
-@media screen (max-width:403px) {
+
+@media screen and(max-width:403px) {
 .section1
 {
 
@@ -1086,7 +1089,7 @@ margin-left:10px ;
 
 
 /*IPAD*/
-/*@media screen and (min-width:1024px) and (max-width:1366px){
+@media screen and (min-width:1024px) and (max-width:1366px){
 .case-hotel
 {
 
