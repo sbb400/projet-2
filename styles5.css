@@ -847,7 +847,7 @@ margin-left: -7px;
 }
 
 /*iphone*/
-@media screen and (min-width:371px) and (max-width:660px){
+@media screen and (min-width:375px) and (max-width:660px){
 .body
 {
     width: 100%;
