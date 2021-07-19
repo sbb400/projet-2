@@ -845,7 +845,7 @@ margin-left: -7px;
 }
 
 /*iphone*/
-@media screen and (max-device-width:600px){
+@media all and (max-device-width:600px) and (max-width:800px)    {
 .body
 {
     width: auto;
@@ -1078,25 +1078,34 @@ flex-wrap: nowrap;
 {
     margin-left: -21em;
 }
-
 .affichage
 {
-margin-left:10px ;
-    
+margin-left:10px ;    
 } 
 .herbergement
 {
     margin-left: 198px;
 }
 }
-
-
 /*IPAD*/
-@media screen and (width:1024px){
+@media all and (min-width:768px) and (max-width:1024px){
 .body
 {
     width: 100%;
 }
+#calanques
+{
+    width: 18em;
+    margin-left: -73px;
+}
+.bloc-fort-iles
+{
+    width: 10em;
+}
+.footer-title2
+{
+    margin-top: 21px;
+}   
 .case-hotel
 {
 width: 42%;
@@ -1113,7 +1122,6 @@ margin: 5px 5px 5px 10px;
     width: 60%;
     flex-wrap: wrap;
 }
-
 .cubeloisir
 {
 display: flex;
@@ -1121,7 +1129,6 @@ width: 100%;
 flex-direction: row;
 flex-wrap: nowrap;
 }
-
 .cubeloisir2
 {
 display: flex;
