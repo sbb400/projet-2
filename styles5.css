@@ -845,7 +845,7 @@ margin-left: -7px;
 }
 
 /*iphone*/
-@media all and (max-device-width:600px) and (max-width:800px)    {
+@media all and (max-device-width:600px) and (max-width:800px){
 .body
 {
     width: 100%;
@@ -900,7 +900,7 @@ width: 75%;
         
 }
 
-.navbar #navbar-link-accomodation 
+.navbar #navbar-link-accomodation
 {
 display: flex;
 flex-direction: column-reverse;
@@ -923,8 +923,11 @@ background-color: blue;
 .navbar .navbar-link .underline-effect {
 width: 100%;
 height: 3px;
-background: white;
-    
+background: white; 
+}
+.filtres ul
+{
+    margin-left: -15px;
 }
 
 .info p
