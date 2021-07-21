@@ -346,8 +346,6 @@ header
 
 .case-populaires
 {   
-    margin: center;
-    border-radius: 100px solid black;
     flex-direction: row;justify-content: space-around;
     background-color: blue;
     background: white;
@@ -873,8 +871,8 @@ flex-direction: row;
 justify-content: space-around;
 align-content: center;
 align-items: center;
-margin-right: -90px;
-margin-left: -49px;
+margin-right: -123px;
+margin-left: 125px;
         
 }     
 
@@ -1111,7 +1109,15 @@ margin-left:1px ;
 .footer-title2
 {
     margin-top: 21px;
-}   
+}
+.navbar
+{
+    margin-right: 90px;
+}
+.icon
+{
+    margin-left: -2em;
+}
 .case-hotel
 {
 width: 42%;
@@ -1152,33 +1158,34 @@ height: 415px;
 {
     width: 220px;
 }
-
-.populaires-img    
+.iphone82
 {
-   display: flex;
-    width: 320px;
-    flex-direction: row;
-   flex-wrap: nowrap;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
-   margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    width: 92%;
+}
+.populaires-img
+{
+    width: 81%;
+}
+.case-text3
+{
+    width:43em
+}
+.case-img3
+{
+    width: 224px;
 }
 aside
 {
-    background-color: #F2F2F2;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
+    display: none;
 }
 .fontgris
 {
  background-color: #f2f2f2;
- width: 60%;
+ width: 92%;
  display: flex;
  
 }
