@@ -725,7 +725,7 @@ span
 #calanques
 {
     display: flex;
-    width: 44%;
+    width: 35%;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
@@ -735,7 +735,7 @@ span
 .bloc-ndg-longchamp
 {
     display: flex;
-    width: 40%;
+    width: 33%;
     flex-direction: column;
     height: 300px;
     gap: 1.5em;
