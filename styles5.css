@@ -509,6 +509,7 @@ aside
     flex-direction: column;
     flex-wrap: nowrap;
     margin-bottom: 15px;
+    width: 375px;
 }
 .case-loisir
 {
