@@ -74,7 +74,6 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: space-between;
 align-items: center; 
-margin-right: -3em;
 }
 .fas .fa .info
 {
@@ -89,8 +88,8 @@ margin-right: -3em;
 }
 .icon
 {
-    margin: 1px 1px 1px -232px;
-    padding: 2px ;
+    margin: 1px 1px 1px 0px;
+    padding: 0px ;
     
 }
 .footer-block
@@ -232,7 +231,7 @@ a {
   }
 header
 {
-    width: 98%;
+    width: 100%;
     max-width: 1440px;
     margin: auto;
 }
