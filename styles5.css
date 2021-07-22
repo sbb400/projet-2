@@ -702,7 +702,7 @@ span
 {
     display: flex;
     flex-direction: column;
-    width: 38%;
+    width: 40%;
     height: 300px;
     justify-content: normal;
     gap: 1.5em;
@@ -723,7 +723,7 @@ span
 #calanques
 {
     display: flex;
-    width: 35%;
+    width: 30%;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
@@ -733,7 +733,7 @@ span
 .bloc-ndg-longchamp
 {
     display: flex;
-    width: 33%;
+    width: 30%;
     flex-direction: column;
     height: 300px;
     gap: 1.5em;
@@ -1093,18 +1093,40 @@ margin-left:1px ;
 }
 /*IPAD*/
 @media all and (min-width:768px) and (max-width:1024px){
-.body
+body
 {
-    width: 100%;
+    width:100%
 }
 #calanques
 {
-    width: 18em;
-    margin-left: -73px;
+    width: 47%;
+    margin-left: 0em;
 }
+
 .bloc-fort-iles
 {
-    width: 10em;
+    width: 50%;
+}
+.bloc-ndg-longchamp
+{
+    width: 50%;
+    margin-right: 0em;
+}
+#vieuxport
+{
+    width: 50%;
+}
+.footer-block
+{
+    margin-left: -118px;
+}
+.footer-block1
+{
+    margin-left: -23px;
+}
+.filtres
+{
+    width:42em;
 }
 .footer-title2
 {
@@ -1112,7 +1134,7 @@ margin-left:1px ;
 }
 .navbar
 {
-    margin-right: 90px;
+    margin-right: 44px;
 }
 .icon
 {
@@ -1164,7 +1186,19 @@ height: 415px;
     flex-direction: column;
     background-color: #f2f2f2;
     margin-bottom: 20px;
-    width: 92%;
+    width: 78%;
+    border-radius: 20px;
+}
+#loisirs
+{
+    display:flex;
+    width: 77%;
+    flex-wrap: wrap;
+}
+
+.bloc-act
+{
+    display: flex;
 }
 .populaires-img
 {
@@ -1185,7 +1219,7 @@ aside
 .fontgris
 {
  background-color: #f2f2f2;
- width: 92%;
+ width: 78%;
  display: flex;
  
 }
