@@ -222,8 +222,7 @@ span#nom
 
 .body
 {
-    font-family: 'Raleway' sans-serif;
-    
+    font-family: 'Raleway sans-serif';    
 }
 a {
     text-decoration: none;
@@ -821,11 +820,11 @@ margin-left: -7px;
 {
     margin-left: 0px;
 }
-.iphone8
+.smartphone
 {
     display: none;
 }
-.iphone
+.smartphone2
 {
     display: none;
 }
@@ -863,7 +862,7 @@ display: none;
     
 } 
 
-.iphone8 
+.smartphone
 {
 display: flex;
 flex-direction: row;
@@ -873,7 +872,7 @@ align-items: center;
 margin-right: -85px;        
 }     
 
-.iphone
+.smartphone2
 {
 display: flex;
 flex-direction: row;
