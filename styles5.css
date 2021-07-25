@@ -164,7 +164,6 @@ margin-left: 1px;
     margin-top: 10px;
     border-radius: 400px;
     font-weight: 800;
-    font-family: "Font Awesome 5 Free";
 }
 .filtres ul li :hover
 {
@@ -220,9 +219,9 @@ span#nom
     flex-direction: row;
 }
 
-.body
+body
 {
-    font-family: 'Raleway sans-serif';    
+    font-family: Raleway,sans-serif;    
 }
 a {
     text-decoration: none;
@@ -295,11 +294,15 @@ header
     color: black;
     font-size: 16px;
     font-weight: bold;
- }
+ } 
 #icon-glass {
     display: none;
   }
-
+.research-bar
+{
+    width: 250px;
+    border:1px solid #e2e2e2;
+}
 .fa-chart-line
 {
     color: black;
@@ -371,7 +374,7 @@ header
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    width: 27%;
+    width: 30%;
     margin: 5px 5px 5px 5px;
     display: inline-table;
 }
@@ -387,10 +390,13 @@ header
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    width: 27%;
-    margin-left: 50px;
-    margin-right: 10px;
+    width: 30%;
    display: inline-table;
+}
+.cases-mars
+{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .fontgris
 {
@@ -414,7 +420,7 @@ header
 .herbergement-bloc{
     display: flex;
     flex-direction:row;
-    width: 60%;
+    width: 70%;
     list-style: none;
     flex-wrap: wrap;
     margin-left: -5px;
@@ -435,7 +441,7 @@ header
 }
 aside
 {
-    width: 40%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
     margin: 0px 0px 0px 40px;
@@ -448,7 +454,7 @@ aside
 }
 
 .case-img{
-    width: 40%;
+    width: 41%;
     height: 154px;
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
@@ -466,7 +472,7 @@ aside
 }
 .case-img3
 {
-    width: 230px;
+    width: 119px;
     height: 154px;
     background-size: 100% 100%;
     border-radius: 20px 0px 0px 20px;
@@ -482,7 +488,7 @@ aside
     flex-direction: column;
     flex-wrap: nowrap;
     margin-bottom: 15px;
-    width: 700px;
+    width: 60%;
 
 }
 .case-text2
@@ -506,7 +512,7 @@ aside
     flex-direction: column;
     flex-wrap: nowrap;
     margin-bottom: 15px;
-    width: 420px;
+    width: 71%;
 }
 .case-loisir
 {
@@ -573,7 +579,7 @@ aside
 }
 .populaires-img
 {
-    width: 83%;
+    width: 89%;
     height: 150px;
     background: white;
     list-style: none;
@@ -587,7 +593,7 @@ aside
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
-    margin: 15px 15px 30px 35px;
+    margin: 15px 15px 30px 21px;
     object-fit: cover;
     
 }
@@ -662,7 +668,7 @@ gap:1em;
 {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 25%;
     box-shadow: 0px 0px 10px lightgray;
     border-radius: 20px;
     height: 300px;
@@ -698,7 +704,7 @@ span
 {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 30%;
     height: 300px;
     justify-content: normal;
     gap: 1.5em;
@@ -719,12 +725,12 @@ span
 #calanques
 {
     display: flex;
-    width: 23%;
+    width: 25%;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
     height: 300px;
-    margin-left: -9em;
+    
 }
 .bloc-ndg-longchamp
 {
@@ -831,7 +837,7 @@ margin-left: -7px;
 {
     margin-left: -4px;
 }
-.iphone82
+.tablette
 {
     display: none;
 }
@@ -946,7 +952,7 @@ background: white;
     width: 420px;
     margin-left: 3px;
 }
-.iphone82
+.tablette
 {
     display: flex;
     flex-direction: column;
@@ -1090,7 +1096,7 @@ margin-left:1px ;
 }
 }
 /*tablette*/
-@media all and (min-width:668px) and (max-width:991px){
+@media all and (min-width:668px) and (max-width:1024px){
 body
 {
     width:100%
@@ -1142,20 +1148,6 @@ margin: 5px 5px 5px 10px;
     width: 60%;
     flex-wrap: wrap;
 }
-.cubeloisir
-{
-display: flex;
-width: 100%;
-flex-direction: row;
-flex-wrap: nowrap;
-}
-.cubeloisir2
-{
-display: flex;
-flex-direction: row;
-width: 60%;
-flex-wrap: wrap;
-}
 .losir-img3
 {
 width: 230px; 
@@ -1166,7 +1158,7 @@ height: 415px;
 {
     width: 220px;
 }
-.iphone82
+.tablette
 {
     display: flex;
     flex-direction: column;
