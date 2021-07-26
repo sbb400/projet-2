@@ -556,7 +556,7 @@ aside
 {
    
     margin-left: 1px;
-    margin-top: 30pt;
+    margin-top: 0px;
 }
 
 .prix
@@ -637,7 +637,7 @@ aside
 #loisirs
 {
  display: flex;
- flex-direction:row;
+ flex-direction:column;
  width: 100%;
 margin-top: 3%;
   padding-bottom: 2rem;
