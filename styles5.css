@@ -980,10 +980,20 @@ justify-content: space-around;
     flex-direction: column;
     margin-left: 0px;
     width: 420px;
+    height: 156px;
   }
   #vieuxport {
     width: 420px;
+    height: 156px
   }
+.losir-image-col13
+{
+  width: 100%;
+    height: 70%;
+    margin: 0px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
   footer {
     width: 467px;
     display: flex;
