@@ -993,12 +993,12 @@ justify-content: space-around;
   #calanques {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 365px;
     height: 220px;
     margin-top: 9em;
   }
   #vieuxport {
-    width: 100%;
+    width: 365px;
     height: 220px
   }
 .losir-image-col13
