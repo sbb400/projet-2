@@ -921,11 +921,11 @@ justify-content: space-around;
     text-decoration: none;
   }
   .case-hotel {
-    width: 420px;
+    width: 100%;
     margin-bottom: 15px;
   }
   .case-hotel2 {
-    width: 420px;
+    width: 100%;
     margin-left: 3px;
     margin-bottom: 15px;
   }
@@ -933,7 +933,7 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
-    width: 515px;
+    width: 100%;
   }
   .populaires-img {
     width: 92%;
@@ -966,41 +966,40 @@ justify-content: space-around;
   #ilesfrioul{
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 250px;
+    width: 365px;
+    height: 220px;
   }
 
   #fortpomegues{
  display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 250px;
+    width: 365px;
+    height: 220px;
     margin-bottom: 0px;
   }
   #ndg {
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 250px;
+    width: 365px;
+    height: 220px;
     margin-bottom: 0px;
   }
   #longchamp{
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 250px;
+    width: 365px;
+    height: 220px;
   }
   #calanques {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
-    width: 450px;
-    height: 250px;
-    margin-top: 11em;
+    width: 100%;
+    height: 220px;
+    margin-top: 9em;
   }
   #vieuxport {
-    width: 450px;
-    height: 250px
+    width: 100%;
+    height: 220px
   }
 .losir-image-col13
 {
@@ -1011,7 +1010,7 @@ justify-content: space-around;
     object-fit: cover;
 }
   footer {
-    width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
