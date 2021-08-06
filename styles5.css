@@ -321,7 +321,7 @@ header
 {
     display: flex;
     flex-direction: row;
-    margin: 70px 1px 1px 10px
+    margin: 53px 1px 1px 10px
 }
 .colorgris
 {
@@ -561,7 +561,7 @@ aside
 }
 .populaires-img
 {
-    width: 93%;
+    width: 97%;
     height: 150px;
     background: white;
     list-style: none;
@@ -604,7 +604,8 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 20px 1px 1px 10px
+    margin: 20px 1px 1px 10px;
+    width: 198px;
 }
 .hotel-prix3
 {
@@ -613,7 +614,8 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 20px 1px 1px 10px
+    margin: 20px 1px 1px 10px;
+    width: 191px;
 }
 .losir-img
 {
@@ -1079,9 +1081,8 @@ justify-content: space-around;
   .affichage {
     margin-left: 1px;
   }
-  
   .herbergement {
-    margin-left: 1px;
+    margin-left: -5px;
   }
 }
 /*tablette*/
