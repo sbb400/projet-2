@@ -212,6 +212,7 @@ margin-left: 1px;
 body
 {
     font-family: Raleway,sans-serif;    
+   font-size: 20px;
 }
 a {
     text-decoration: none;
@@ -448,7 +449,7 @@ aside
 .case-img2
 {
     width: 100%;
-    height: 140px;
+    height: 145px;
     background-size: 100% 100%;
     display: flex;
     border-radius: 20px 20px 0px 0px;
@@ -552,7 +553,7 @@ aside
 {
    
     margin-left: 1px;
-    margin-top: 0px;
+
 }
 
 .prix
@@ -580,11 +581,6 @@ aside
     object-fit: cover;
     
 }
-.hotel-nom1
-{
-    line-height: 16px;
-    font-size: 18px;
-}
 .hotel-nom2
 {
     display: block;
@@ -597,7 +593,7 @@ aside
 .hotel-nom3
 {
     display: block;
-    line-height: 15px;
+    line-height: 20px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -651,10 +647,11 @@ gap:1em;
 {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 23%;
     box-shadow: 0px 0px 10px lightgray;
     border-radius: 20px;
-    height: 300px;
+    height: 550px;
+    margin-right: 30px;
 }
 
 .losir-image-col13
@@ -687,20 +684,22 @@ span
 {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 22%;
     height: 300px;
     justify-content: normal;
     gap: 1.5em;
+    margin-right: 30px;
 }
 #fortpomegues
 {
-    height: 150px;
+    height: 300px;
     box-shadow: 0px 0px 10px lightgrey;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 #ilesfrioul
 {
-    height: 125px;
+    height: 190px;
     box-shadow: 0px 0px 10px lightgrey;
     border-radius: 20px;
 
@@ -708,32 +707,33 @@ span
 #calanques
 {
     display: flex;
-    width: 25%;
+    width: 23%;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
-    height: 300px;
+    height: 550px;
+    margin-right: 30px;
     
 }
 .bloc-ndg-longchamp
 {
     display: flex;
-    width: 30%;
+    width: 22%;
     flex-direction: column;
-    height: 300px;
     gap: 1.5em;
 }
 #ndg
 {
-    height: 150px;
+    height: 220px;
     box-shadow: 0px 0px 10px lightgrey;
     border-radius: 20px;
+    margin-bottom: 20px;
 
 }
 
 #longchamp
 {
-    height: 125px;
+    height: 280px;
 box-shadow: 0px 0px 10px lightgrey;
     border-radius: 20px;
 }
@@ -743,6 +743,7 @@ box-shadow: 0px 0px 10px lightgrey;
     display: flex;
     justify-content: flex-start;
     gap:1em;
+    margin-bottom: 10px;
 }
 .cubeloisir2
 {
@@ -827,10 +828,11 @@ margin-left: -7px;
 
 /*smartphone*/
 @media all and (max-width:667px){
-.body
+body
 {
     width: 100%;
     flex-direction: column;
+    font-size: 20px;
 }
 .icon-localisation 
 {      
@@ -922,16 +924,18 @@ justify-content: space-around;
   }
   .case-hotel {
     width: 420px;
+    margin-bottom: 15px;
   }
   .case-hotel2 {
     width: 420px;
     margin-left: 3px;
+    margin-bottom: 15px;
   }
   .tablette {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
-    width: 471px;
+    width: 515px;
   }
   .populaires-img {
     width: 92%;
@@ -958,29 +962,47 @@ justify-content: space-around;
   .bloc-act {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 15px;
+  
   }
-
-  .bloc-fort-iles {
- display: flex;
-    flex-direction: column;
-    width: 420px;
-  }
-  .bloc-ndg-longchamp {
+  #ilesfrioul{
     display: flex;
     flex-direction: column;
-    width: 420px;
+    width: 450px;
+    height: 250px;
+  }
+
+  #fortpomegues{
+ display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    margin-bottom: 0px;
+  }
+  #ndg {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    margin-bottom: 0px;
+  }
+  #longchamp{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
   }
   #calanques {
     display: flex;
     flex-direction: column;
     margin-left: 0px;
-    width: 420px;
-    height: 156px;
+    width: 450px;
+    height: 250px;
+    margin-top: 11em;
   }
   #vieuxport {
-    width: 420px;
-    height: 156px
+    width: 450px;
+    height: 250px
   }
 .losir-image-col13
 {
@@ -991,7 +1013,7 @@ justify-content: space-around;
     object-fit: cover;
 }
   footer {
-    width: 467px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -1037,7 +1059,7 @@ justify-content: space-around;
     width: 100%;
   }
   .filtres {
-    width: 28em;
+    width: 26em;
     flex-direction: column;
   }
   .title-h3 {
