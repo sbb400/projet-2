@@ -151,7 +151,7 @@ margin-left: 1px;
 .filtres ul li
 {
     display: inline;
-    margin-left: 25px;
+    margin-left: 20px;
     font-weight: 700;
     border: solid 2px #e2e2e2;
     padding: 0 20px 0 0;
@@ -832,6 +832,14 @@ body
     flex-direction: column;
     font-size: 20px;
 }
+#nom
+{
+  padding-left: 0px;
+}
+#nom1
+{
+  padding-left: 0px;
+}
 .icon-localisation 
 {      
     width: 50px;
@@ -881,7 +889,7 @@ body
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    width:100%;
+    width:97%;
 }  
 
 .smartphone2
@@ -890,7 +898,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
     margin-left: 1px;
-    width: 100%;
+    width: 97%;
     margin-top: 15px;
 }
   
@@ -921,11 +929,11 @@ justify-content: space-around;
     text-decoration: none;
   }
   .case-hotel {
-    width: 100%;
+    width: 97%;
     margin-bottom: 15px;
   }
   .case-hotel2 {
-    width: 100%;
+    width: 97%;
     margin-left: 3px;
     margin-bottom: 15px;
   }
@@ -933,6 +941,14 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
+    width: 100%;
+  }
+  .icon-star3
+  {
+    margin: 50px 1px 1px 10px;
+  }
+  .hotel-prix2
+  {
     width: 100%;
   }
   .populaires-img {
@@ -960,45 +976,43 @@ justify-content: space-around;
   .bloc-act {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
-  
   }
   #ilesfrioul{
     display: flex;
     flex-direction: column;
-    width: 365px;
+    width: 355px;
     height: 220px;
   }
 
   #fortpomegues{
  display: flex;
     flex-direction: column;
-    width: 365px;
+    width: 355px;
     height: 220px;
     margin-bottom: 0px;
   }
   #ndg {
     display: flex;
     flex-direction: column;
-    width: 365px;
+    width: 355px;
     height: 220px;
     margin-bottom: 0px;
   }
   #longchamp{
     display: flex;
     flex-direction: column;
-    width: 365px;
+    width: 355px;
     height: 220px;
   }
   #calanques {
     display: flex;
     flex-direction: column;
-    width: 365px;
+    width: 355px;
     height: 220px;
     margin-top: 9em;
   }
   #vieuxport {
-    width: 365px;
+    width: 355px;
     height: 220px
   }
 .losir-image-col13
@@ -1010,7 +1024,7 @@ justify-content: space-around;
     object-fit: cover;
 }
   footer {
-    width: 100%;
+    width: 97%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
