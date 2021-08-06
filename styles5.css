@@ -98,7 +98,7 @@ align-items: center;
 }
 .footer-block1
 {
-    width: 90%;
+    width: 100%;
     flex-direction: row; justify-content: space-between;
     line-height: 44px;
     margin-left: 10px;
@@ -549,11 +549,9 @@ aside
     margin: -20px 10px 50px 10px;
     display: inline-table;
 }
-.activites
-{
+.activites{
    
     margin-left: 1px;
-
 }
 
 .prix
@@ -1077,21 +1075,27 @@ justify-content: space-around;
 @media all and (min-width: 668px) and (max-width: 1024px) {
   body {
     width: 100%;
+    font-size: 20px;
   }
   #calanques {
-    width: 50%;
-    margin-left: 0em;
+    width: 54%;
   }
 
-  .bloc-fort-iles {
-    width: 45%;
+  #ilesfrioul{
+    width: 300px;
   }
-  .bloc-ndg-longchamp {
-    width: 45%;
-    margin-right: 0em;
+  #fortpomegues{
+    width: 300px;
+  }
+  #ndg{
+    width: 300px;
+  }
+  #longchamp
+  {
+    width: 300px;
   }
   #vieuxport {
-    width: 50%;
+    width: 54%;
   }
   .filtres {
     width: 42em;
@@ -1135,11 +1139,14 @@ width: 230px;
   #loisirs {
     display: flex;
     width: 100%;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
   .bloc-act {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .populaires-img {
     width: 81%;
