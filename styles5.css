@@ -399,6 +399,10 @@ header
     display: flex;
     
 }
+.hotel-nom
+{
+  font-size: 21px;
+}
 
 .section1{
     display: flex;
@@ -433,7 +437,8 @@ aside
     width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 10px;
+    padding: 15px;
 }
 .populaires-bloc{
     display: flex;
@@ -566,7 +571,6 @@ aside
 .populaires-img
 {
     width: 97%;
-    height: 150px;
     background: white;
     list-style: none;
     display: flex;
@@ -586,11 +590,11 @@ aside
 .hotel-nom2
 {
     display: block;
-    line-height: 17px;
+    line-height: 18px;
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 20px 1px 1px 10px
+    margin: 20px 1px 1px 10px;
 }
 .hotel-nom3
 {
@@ -599,8 +603,18 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 20px 1px 1px 10px
+    margin: 20px 1px 1px 10px;
 }
+.hotel-nom4
+{
+  line-height: 18px;
+  display: block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 1px 1px 10px;
+}
+
 .hotel-prix2
 {
     display: block;
@@ -801,8 +815,8 @@ margin-left: -7px;
     align-content: center;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 20px;
     margin-left: 32px;
+    font-size: 1em;
     
 }
 .star
@@ -831,7 +845,11 @@ margin-left: -7px;
 }
 h4
 {
-  margin: 11px;
+  width: 15em;
+}
+.titre-ile
+{
+  margin: 7px;
 }
 
 /*smartphone*/
@@ -899,7 +917,7 @@ body
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    width:97%;
+    width:500px;
 }  
 
 .smartphone2
