@@ -213,6 +213,8 @@ body
 {
     font-family: Raleway,sans-serif;    
    font-size: 20px;
+   margin-left: 25px;
+   margin-right: 25px;
 }
 a {
     text-decoration: none;
@@ -360,7 +362,7 @@ header
     box-shadow: 0px 0px 6px 0px #0000002e;
     object-fit: cover;
     width: 30%;
-    margin: 5px 5px 5px 5px;
+    margin: 6px 6px 6px 6px;
     display: inline-table;
 }
 .case-hotel2
@@ -377,10 +379,11 @@ header
     object-fit: cover;
     width: 30%;
    display: inline-table;
+   margin: 6px;
 }
 .cases-mars
 {
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 20px;
 }
 .fontgris
@@ -415,13 +418,13 @@ header
 .herbergement
 {
     margin-top: 30px;
-    margin-left: 51px;
+    margin-left: 68px;
 }
 .affichage
 {
     
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 6px;
     margin-top: 35px
 }
 aside
@@ -484,8 +487,8 @@ aside
     align-content: center;
     justify-content: center;
     align-items: center;
-    line-height: 15px;
-    margin-left: 5px;
+    line-height: 19px;
+    margin-left: 10px;
 }
 .case-text3
 {
@@ -582,7 +585,7 @@ aside
 .hotel-nom2
 {
     display: block;
-    line-height: 15px;
+    line-height: 17px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -651,7 +654,7 @@ gap:1em;
     box-shadow: 0px 0px 10px lightgray;
     border-radius: 20px;
     height: 550px;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .losir-image-col13
@@ -695,11 +698,11 @@ span
     height: 300px;
     box-shadow: 0px 0px 10px lightgrey;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 #ilesfrioul
 {
-    height: 190px;
+    height: 140px;
     box-shadow: 0px 0px 10px lightgrey;
     border-radius: 20px;
 
@@ -712,7 +715,7 @@ span
     border-radius: 20px;
     box-shadow: 0px 0px 10px lightgray;
     height: 550px;
-    margin-right: 30px;
+    margin-right: 25px;
     
 }
 .bloc-ndg-longchamp
@@ -803,7 +806,7 @@ margin-left: -7px;
 }
 .star
 {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .star2
 {
@@ -1136,11 +1139,11 @@ justify-content: space-around;
   }
   .case-hotel {
     width: 46%;
-    margin: 5px 5px 5px 10px;
+    margin: 5px 5px 5px 9px;
   }
   .case-hotel2 {
     width: 46%;
-    margin: 5px 5px 5px 10px;
+    margin: 5px 5px 5px 9px;
   }
   .herbergement-bloc {
     display: flex;
