@@ -571,6 +571,7 @@ aside
 .populaires-img
 {
     width: 97%;
+    height: 164px;
     background: white;
     list-style: none;
     display: flex;
