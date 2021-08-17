@@ -889,10 +889,11 @@ body
     border-bottom: #0065fc solid 3px;
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 50%;
     padding-bottom: 5px;
+    margin-right: auto;
 }
   #nav-act
   {
@@ -900,8 +901,8 @@ body
     display: flex;
     align-content: center;
     align-items: center;
-    width: 50%;
-    justify-content:space-between;
+    width: 100%;
+    justify-content:center;
     padding-bottom: 5px;
   }
   .login
@@ -918,7 +919,7 @@ body
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    width:500px;
+    width: 550px;
 }  
 
 .smartphone2
